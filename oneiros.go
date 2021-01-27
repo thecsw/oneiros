@@ -6,4 +6,5 @@ func main() {
 	fmt.Println(RandInt10Times())
 	fmt.Println(RegexGenerate())
 	fmt.Println(CryptoRand())
+	fmt.Println(CrytoRandMath())
 }

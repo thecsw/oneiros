@@ -40,3 +40,12 @@ func CryptoRand() string {
 	}
 	return res
 }
+
+func CrytoRandMath() string {
+	res := big.NewInt(0)
+	for i := 0; i < 16; i++ {
+		n, _ := crand.Int(crand.Reader, Big10)
+		res.Add(res.Mul(res, Big10), n)
+	}
+	return res.String()
+}
