@@ -1,9 +1,0 @@
-oneiros:main* λ /opt/homebrew/bin/go test -bench .
-goos: darwin
-goarch: arm64
-pkg: github.com/thecsw/oneiros
-BenchmarkRandInt10Times-8   	  107884	     11113 ns/op
-BenchmarkRegexGenerate-8    	  225258	      5306 ns/op
-BenchmarkCryptoRand-8       	  302148	      3975 ns/op
-PASS
-ok  	github.com/thecsw/oneiros	4.970s
