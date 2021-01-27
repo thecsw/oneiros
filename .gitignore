@@ -16,3 +16,6 @@
 
 # Ignore my backup files
 .saves
+
+# Ignore the oneiros binary
+oneiros
