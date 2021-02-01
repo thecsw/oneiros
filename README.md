@@ -12,10 +12,10 @@ go get -u github.com/thecsw/oneiros
 
 ## Usage
 
-It will return a 16 digit number represented as a string.
+It will return a 16 digit number as a `*math/big.Int`
 
 ``` go
 oneiros.Generate()
 ```
 
-It takes about ~1700ns to generate one. Tested on MacBook Pro M1 (ARM mode).
+It takes about ~380ns to generate one. Tested on MacBook Pro M1 (ARM mode).
